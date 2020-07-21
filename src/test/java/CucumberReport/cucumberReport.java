@@ -55,7 +55,7 @@ public class cucumberReport {
 
 	@Given("^I have already accessed to create part page$")
 	public void I_have_already_accessed_to_create_part_page() throws Throwable {
-		/*
+		
 		driver = new ChromeDriver();	
 		act = new Actions(driver);
 		driver.manage().window().maximize();		
@@ -123,7 +123,7 @@ public class cucumberReport {
 		 
 		 driver.findElement(By.xpath("/html/body/div[3]/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a/button")).click(); 
 		 
-		 Thread.sleep(10000); */
+		 Thread.sleep(10000); 
 	}
 	
 	
