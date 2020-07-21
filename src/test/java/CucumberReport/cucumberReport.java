@@ -56,7 +56,7 @@ public class cucumberReport {
 	@Given("^I have already accessed to create part page$")
 	public void I_have_already_accessed_to_create_part_page() throws Throwable {
 		
-		driver = new ChromeDriver();	
+		/*driver = new ChromeDriver();	
 		act = new Actions(driver);
 		driver.manage().window().maximize();		
 		driver.get("https://qa3dexp.nventco.com/3dpassport/login?service=https%3A%2F%2Fqa3dexp.nventco.com%2F3dspace%2Fcommon%2FemxNavigator.jsp");
@@ -123,7 +123,7 @@ public class cucumberReport {
 		 
 		 driver.findElement(By.xpath("/html/body/div[3]/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a/button")).click(); 
 		 
-		 Thread.sleep(10000); 
+		 Thread.sleep(10000); */
 	}
 	
 	
