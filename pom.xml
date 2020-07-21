@@ -6,22 +6,45 @@
   <name>nvent.cucumber.test</name>
   <dependencies>
 	<dependency>
-	      <groupId>info.cukes</groupId>
-	      <artifactId>cucumber-java</artifactId>
-	      <version>1.0.2</version>
-	      <scope>test</scope>
-	  </dependency>
+   <groupId>info.cukes</groupId>
+   <artifactId>cucumber-jvm</artifactId>
+   <version>1.2.2</version>
+   <type>pom</type>
+</dependency>
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java --> 
 	<dependency>
-	     <groupId>info.cukes</groupId>
-	     <artifactId>cucumber-junit</artifactId>
-	     <version>1.0.2</version>
-	     <scope>test</scope>
+	   <groupId>info.cukes</groupId>
+	   <artifactId>cucumber-java</artifactId>
+	   <version>1.2.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core --> 
+	<dependency>
+	   <groupId>info.cukes</groupId>
+	   <artifactId>cucumber-core</artifactId>
+	   <version>1.2.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit --> 
+	<dependency>
+	   <groupId>info.cukes</groupId>
+	   <artifactId>cucumber-junit</artifactId>
+	   <version>1.2.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-jvm-deps --> 
+	<dependency>
+	   <groupId>info.cukes</groupId>
+	   <artifactId>cucumber-jvm-deps</artifactId>
+	   <version>1.0.3</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/junit/junit --> 
+	<dependency>
+	   <groupId>junit</groupId>
+	   <artifactId>junit</artifactId>
+	   <version>4.11</version>
 	</dependency>
 	<dependency>
-	     <groupId>junit</groupId>
-	     <artifactId>junit</artifactId>
-	     <version>4.10</version>
-	     <scope>test</scope>
-	</dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.9.0</version>
+</dependency>
   </dependencies>
 </project>
